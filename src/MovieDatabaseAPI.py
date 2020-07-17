@@ -19,3 +19,16 @@ for i in movies()['results']:
 print(titles)
 
 
+
+class MovieDetails:
+
+    def __init__(movies, title, popularity, vote_count, vote_average):
+        movies.title = title
+        movies.popular = popularity
+        movies.votes = vote_count
+        movies.avg_votes = vote_average
+
+    #def votes(self):
+       # self.avg_votes
+
+print(movies)
